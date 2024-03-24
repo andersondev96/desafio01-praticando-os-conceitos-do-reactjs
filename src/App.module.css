@@ -1,0 +1,54 @@
+.wrapper {
+  width: 100%;
+  position: absolute;
+  top: 10.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-itens: center;
+  justify-content: center;
+  padding: 64px;
+}
+
+.headerTasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 460px;
+}
+
+.statusTasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.statusTasks span {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: var(--blue);  
+}
+
+.statusTasks strong {
+  padding: 2px 8px;
+  background: var(--gray-400);
+  border-radius: 100px;
+  color: var(--gray-200);  
+}
+
+.contentTasks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}

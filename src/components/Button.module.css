@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 90px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container:not(:disabled):hover {
+    background-color: var(--blue);    
+}
+
+.container:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
